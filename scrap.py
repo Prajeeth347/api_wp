@@ -1,5 +1,7 @@
 import sys
-
+import os
+os.system("pip install trafilatura")
+os.system("pip install gensim")
 import trafilatura
 from gensim.summarization import keywords
 from gensim.summarization.summarizer import summarize
